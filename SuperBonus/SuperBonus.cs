@@ -10,7 +10,7 @@ namespace SuperBonus
     {
         static void Main(string[] args)
         {
-            string myStr = File.ReadAllText(@"C:\Users\arb98\source\repos\textfile.txt", Encoding.UTF8);
+            string myStr = File.ReadAllText(@"C:\Users\arb98\source\repos\textfile.txt", Encoding.UTF8).ToLower();
 
             Dictionary<char, int> characterCounts = new Dictionary<char, int>();
             //List<char> letters = new List<char>() { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
