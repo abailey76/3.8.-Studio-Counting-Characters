@@ -6,16 +6,16 @@ namespace _8_Studio_Counting_Characters
     {
         public static void Main(string[] args)
         {
-            /*string myStr = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
+            string myStr = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
                 "Nunc accumsan sem ut ligula scelerisque sollicitudin. Ut at sagittis augue. " +
                 "Praesent quis rhoncus justo. Aliquam erat volutpat. Donec sit amet suscipit metus, non lobortis massa. " +
-                "Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus.";*/
+                "Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus.";
 
             //Console.WriteLine("String: " + myStr);
 
-            Console.WriteLine("Please enter your string: \n");
+            //Console.WriteLine("Please enter your string: \n");
 
-            string myStr = Console.ReadLine();
+            //string myStr = Console.ReadLine();
 
             while (myStr.Length > 0)
 
